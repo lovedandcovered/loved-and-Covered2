@@ -1,0 +1,197 @@
+:root { 
+    --pink:  #efc0d1;
+    --wine:  #6b0f1a;
+    --bg: #fff;
+    --text: #222;
+    --muted: #666;
+    --radius: 12px;
+}
+
+body{
+    padding: 0;
+    background: url("flyer.jpg")center/ cover no-repeat fixed;
+    font-family: "poppins", sans-serif; margin: 0;
+    background: var(--pink);
+    color: var(--text);
+    font-size: 18px;
+    
+}
+  
+header {
+    text-align: center;
+    font-size: large; 
+    color: #6b0f1a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-weight: 700;
+    color: var(--#fff);
+    font-size: 20px;
+}
+
+nav a {
+    margin-left: 16px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: var(--radius);
+}
+
+.hero .intro {
+    flex: 1;
+    padding: 20px;
+}
+
+
+ h1{
+    color: var(--wine);
+    text-align: center;
+    font-family: "poppins", sans-serif; margin: 0;
+ }
+
+.btn {
+    display:inline-block;
+    padding: 15px 35px;
+     background: var(--wine);
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-emphasis: strong;
+
+    
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background: #fff;
+    border-radius: var(--radius);
+    padding: 16px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--radius)
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--wine);
+    border-top: 1px solid #4f0303;
+}
+
+@media (max-width: 700px) {
+    nav a { margin-left: 10px;font-size: 14px; }
+    .hero {flex-direction: column;text-align: center; }
+}
+
+.product img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0);
+    margin-bottom: 10px;
+}
+
+.hero {
+    height: 1oovh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+ font-family: "poppins", sans-serif; margin: 0;
+    font-size: 16px;  
+    color: #000; 
+}
+
+body {
+margin: 0;
+padding:20px;
+}
+
+ .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+ }
+
+  .shop-now-btn {
+    display: inline-block;
+    background-color: #6b0f1a;
+    color: #c7bdbd;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .shop-now-btn:hover {
+ background-color: #a52a2a;
+  }
+  
+
+  .products p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+  }
+
+  section {
+    border-bottom: 2px;
+  }
+
+  body {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  h2 {
+    color: var(--wine);
+    text-align: center;
+    font-family: "poppins", sans-serif; margin: 0;
+ }
